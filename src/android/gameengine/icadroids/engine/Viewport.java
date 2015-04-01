@@ -152,7 +152,7 @@ public class Viewport
 	 * player to the left side of the player box that is kept inside the
 	 * viewport).
 	 * 
-	 * @see android.gameengine.icadroids.engine.Viewport#setViewportLimits()
+	 * @see Viewport#setViewportLimits()
 	 */
 	private int leftLimit;
 
@@ -161,7 +161,7 @@ public class Viewport
 	 * player to the right side of the player box that is kept inside the
 	 * viewport).
 	 * 
-	 * @see android.gameengine.icadroids.engine.Viewport#setViewportLimits()
+	 * @see Viewport#setViewportLimits()
 	 */
 	private int rightLimit;
 
@@ -170,7 +170,7 @@ public class Viewport
 	 * player to the lower side of the player box that is kept inside the
 	 * viewport).
 	 * 
-	 * @see android.gameengine.icadroids.engine.Viewport#setViewportLimits()
+	 * @see Viewport#setViewportLimits()
 	 */
 	private int bottomLimit;
 
@@ -179,7 +179,7 @@ public class Viewport
 	 * player to the upper side of the player box that is kept inside the
 	 * viewport).
 	 * 
-	 * @see android.gameengine.icadroids.engine.Viewport#setViewportLimits()
+	 * @see Viewport#setViewportLimits()
 	 */
 	private int topLimit;
 

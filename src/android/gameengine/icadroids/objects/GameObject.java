@@ -492,7 +492,7 @@ public class GameObject {
 	 * in GameEngine
 	 * 
 	 * @param depth the depth, a float
-	 * @see android.gameengine.icadroids.engine.GameEngine#addGameObject(GameObject gameObject, float layerposition)
+	 * @see android.gameengine.icadroids.engine.GameEngine#addGameObject(android.gameengine.icadroids.objects.GameObject gameObject, float layerposition)
 	 */
 	public void setDepth(float depth) {
 	    this.depth = depth;

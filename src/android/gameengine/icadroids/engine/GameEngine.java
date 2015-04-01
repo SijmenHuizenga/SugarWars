@@ -167,7 +167,7 @@ public abstract class GameEngine extends Activity implements SensorEventListener
 	 * resources which are not yet available at start up.<br />
 	 * Initialize your game by overriding the initialize()-method.
 	 * 
-	 * @see android.gameengine.icadroids.engine.GameEngine#initialize()
+	 * @see GameEngine#initialize()
 	 */
 	public GameEngine() {
 		items = new Vector<GameObject>();
@@ -337,7 +337,7 @@ public abstract class GameEngine extends Activity implements SensorEventListener
 	/**
 	 * Calculates if a GameObject is outside the world or not.
 	 */
-	private void calculateOutsideWorld(GameObject go) {
+	protected void calculateOutsideWorld(GameObject go) {
 		if (go instanceof MoveableGameObject) {
 			if (!go.isActive()) {
 				return;

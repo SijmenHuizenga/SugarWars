@@ -128,7 +128,7 @@ public class DashboardImageView extends ImageView {
 		final View widget = this;
 		this.run(new Runnable() {
 			public void run() {
-				LinearLayout.LayoutParams lp = (LayoutParams) widget.getLayoutParams();
+				LayoutParams lp = (LayoutParams) widget.getLayoutParams();
 				lp.width = newWidth;
 				widget.setLayoutParams(lp);
 			}
@@ -146,7 +146,7 @@ public class DashboardImageView extends ImageView {
 		final View widget = this;
 		this.run(new Runnable() {
 			public void run() {
-				LinearLayout.LayoutParams lp = (LayoutParams) widget.getLayoutParams();
+				LayoutParams lp = (LayoutParams) widget.getLayoutParams();
 				lp.height = newHeight;
 				widget.setLayoutParams(lp);
 			}
@@ -163,7 +163,7 @@ public class DashboardImageView extends ImageView {
 		final View widget = this;
 		this.run(new Runnable() {
 			public void run() {
-				LinearLayout.LayoutParams lp = (LayoutParams) widget.getLayoutParams();
+				LayoutParams lp = (LayoutParams) widget.getLayoutParams();
 				lp.leftMargin = newX;
 				widget.setLayoutParams(lp);
 			}
@@ -179,7 +179,7 @@ public class DashboardImageView extends ImageView {
 		final View widget = this;
 		this.run(new Runnable() {
 			public void run() {
-				LinearLayout.LayoutParams lp = (LayoutParams) widget.getLayoutParams();
+				LayoutParams lp = (LayoutParams) widget.getLayoutParams();
 				lp.topMargin = newY;
 				widget.setLayoutParams(lp);
 			}

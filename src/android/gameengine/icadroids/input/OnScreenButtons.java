@@ -65,9 +65,9 @@ public class OnScreenButtons{
 				R.layout.onscreenbuttons, null);
 
 		if (onScreenButtonsView != null) {
-			LayoutParams lp = new ViewGroup.LayoutParams(
-					ViewGroup.LayoutParams.MATCH_PARENT,
-					ViewGroup.LayoutParams.MATCH_PARENT);
+			LayoutParams lp = new LayoutParams(
+					LayoutParams.MATCH_PARENT,
+					LayoutParams.MATCH_PARENT);
 
 			gameEngine.addContentView(onScreenButtonsView, lp);
 		} else {
@@ -111,34 +111,12 @@ public class OnScreenButtons{
 		case R.id.buttonA:
 			buttonA = state;
 			break;
-		case R.id.buttonB:
-			buttonB = state;
-			break;
-		case R.id.buttonX:
-			buttonX = state;
-			break;
-		case R.id.buttonY:
-			buttonY = state;
-			break;
-		case R.id.dpadUp:
-			dPadUp = state;
-			break;
-		case R.id.dpadDown:
-			dPadDown = state;
-			break;
 		case R.id.dpadLeft:
 			dPadLeft = state;
 			break;
 		case R.id.dpadRight:
 			dPadRight = state;
 			break;
-		case R.id.buttonSelect:
-			select = state;
-			break;
-		case R.id.buttonStart:
-			start = state;
-			break;
-
 		}
 	}
 
@@ -168,4 +146,7 @@ public class OnScreenButtons{
 		}
 	}
 
+    public static View getOnScreenButtonsView() {
+        return onScreenButtonsView;
+    }
 }

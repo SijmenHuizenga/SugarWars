@@ -55,7 +55,7 @@ public class MoveableGameObject extends GameObject {
 	 * because the default update does some important actions, like
 	 * moving the object.
 	 * 
-	 * @see android.gameengine.icadroids.objects.GameObject#update()
+	 * @see GameObject#update()
 	 */
 	@Override
 	public void update() {

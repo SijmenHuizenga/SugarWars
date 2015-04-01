@@ -106,7 +106,7 @@ public class DashboardTextView extends TextView {
 		final View widget = this;
 		this.run(new Runnable() {
 			public void run() {
-				LinearLayout.LayoutParams lp = (LayoutParams) widget.getLayoutParams();
+				LayoutParams lp = (LayoutParams) widget.getLayoutParams();
 				lp.leftMargin = newX;
 				widget.setLayoutParams(lp);
 			}
@@ -122,7 +122,7 @@ public class DashboardTextView extends TextView {
 		final View widget = this;
 		this.run(new Runnable() {
 			public void run() {
-				LinearLayout.LayoutParams lp = (LayoutParams) widget.getLayoutParams();
+				LayoutParams lp = (LayoutParams) widget.getLayoutParams();
 				lp.topMargin = newY;
 				widget.setLayoutParams(lp);
 			}

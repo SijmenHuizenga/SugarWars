@@ -92,7 +92,7 @@ public class AnimatedSprite extends Sprite {
 	 * @param numberOfFrames
 	 *            The number of frames in the strip
 	 *            
-	 * @see android.gameengine.icadroids.objects.graphics.Sprite#loadSprite(java.lang.String)
+	 * @see Sprite#loadSprite(String)
 	 */
 	public final void loadAnimatedSprite(String resourceName, int numberOfFrames) {
 		super.loadSprite(resourceName);
@@ -255,7 +255,7 @@ public class AnimatedSprite extends Sprite {
 	/**
 	 * Get the frame width of this AnimatedSprite
 	 * 
-	 * @see android.gameengine.icadroids.objects.graphics.Sprite#getFrameWidth()
+	 * @see Sprite#getFrameWidth()
 	 */
 	@Override
 	public final int getFrameWidth() {
@@ -279,7 +279,7 @@ public class AnimatedSprite extends Sprite {
 	 * Get the middle of the frame, horizontally
 	 * 
 	 * @see
-	 * android.gameengine.icadroids.objects.graphics.Sprite#getSpriteCenterX()
+	 * Sprite#getSpriteCenterX()
 	 */
 	@Override
 	public final float getSpriteCenterX() {
@@ -290,7 +290,7 @@ public class AnimatedSprite extends Sprite {
 	 * Get the middle of the frame, vertically
 	 * 
 	 * @see
-	 * android.gameengine.icadroids.objects.graphics.Sprite#getSpriteCenterY()
+	 * Sprite#getSpriteCenterY()
 	 */
 	@Override
 	public final float getSpriteCenterY() {
